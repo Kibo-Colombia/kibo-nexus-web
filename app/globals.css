@@ -1,0 +1,236 @@
+@import "tailwindcss";
+
+/* === KIBO CAMPUS - MINIMALIST THEME === */
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-outfit);
+  --font-mono: var(--font-geist-mono);
+
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-border: var(--border);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+
+  /* Kibo Palette - Pure Solid Colors */
+  --color-living: #65A1C9;
+  --color-present: #C24656;
+  --color-saving: #A9D9C7;
+  --color-future: #614FBB;
+  --color-kibo-dark: #1E4332;
+}
+
+:root {
+  --radius: 0.75rem;
+
+  /* Kibo Campus Palette - Solid Colors Only */
+  --background: #1E4332;
+  --foreground: #F2F2F2;
+
+  --card: #1E4332;
+  --card-foreground: #F2F2F2;
+
+  /* Primary Action -> Saving Mint (Light Green) */
+  --primary: #A9D9C7;
+  --primary-foreground: #1E4332;
+
+  /* Secondary -> Future Purple */
+  --secondary: #614FBB;
+  --secondary-foreground: #F2F2F2;
+
+  /* Accent -> Living Blue */
+  --accent: #65A1C9;
+  --accent-foreground: #F2F2F2;
+
+  /* Borders -> Saving Mint (Light Green) */
+  --border: #A9D9C7;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html,
+  body {
+    @apply bg-background text-foreground;
+    overscroll-behavior: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Smooth scroll behavior */
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* === MINIMALIST COMPONENTS - NO SHADOWS, NO GRADIENTS === */
+
+.kibo-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+}
+
+.kibo-card-hover {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  transition: transform 0.2s, border-color 0.2s;
+  cursor: pointer;
+}
+
+.kibo-card-hover:hover {
+  transform: scale(1.02);
+  border-color: #C6EADD;
+}
+
+.kibo-button {
+  border-radius: 9999px;
+  font-weight: 700;
+  transition: transform 0.2s;
+  padding: 0.75rem 1.5rem;
+}
+
+.kibo-button:active {
+  transform: scale(0.95);
+}
+
+.kibo-button-primary {
+  background: transparent;
+  color: #A9D9C7;
+  border: 2px solid #A9D9C7;
+  border-radius: 9999px;
+  font-weight: 700;
+  transition: all 0.2s;
+  padding: 0.75rem 1.5rem;
+  display: inline-block;
+}
+
+.kibo-button-primary:hover {
+  background: #A9D9C7;
+  color: #1E4332;
+  transform: scale(1.05);
+}
+
+.kibo-button-primary:active {
+  transform: scale(0.95);
+}
+
+.kibo-button-secondary {
+  background: var(--secondary);
+  color: var(--secondary-foreground);
+  border-radius: 9999px;
+  font-weight: 700;
+  transition: transform 0.2s;
+  padding: 0.75rem 1.5rem;
+  display: inline-block;
+}
+
+.kibo-button-secondary:active {
+  transform: scale(0.95);
+}
+
+.kibo-button-outline {
+  background: transparent;
+  color: #A9D9C7;
+  border: 2px solid #A9D9C7;
+  border-radius: 9999px;
+  font-weight: 700;
+  transition: all 0.2s;
+  padding: 0.75rem 1.5rem;
+  display: inline-block;
+}
+
+.kibo-button-outline:hover {
+  background: #C6EADD;
+  color: #1E4332;
+  border-color: #C6EADD;
+}
+
+.kibo-button-outline:active {
+  transform: scale(0.95);
+}
+
+/* Redefine text-gradient as a solid color (Primary Light Green) per request */
+.text-gradient {
+  color: #A9D9C7;
+}
+
+.section-title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+  color: #A9D9C7;
+}
+
+@media (min-width: 768px) {
+  .section-title {
+    font-size: 3.5rem;
+  }
+}
+
+.section-subtitle {
+  font-size: 1.125rem;
+  color: var(--foreground);
+}
+
+@media (min-width: 768px) {
+  .section-subtitle {
+    font-size: 1.25rem;
+  }
+}
+
+/* Animations without blurs or glows */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.4s ease-out forwards;
+}
+
+.animate-delay-1 {
+  animation-delay: 0.1s;
+  opacity: 0;
+}
+
+.animate-delay-2 {
+  animation-delay: 0.2s;
+  opacity: 0;
+}
+
+.animate-delay-3 {
+  animation-delay: 0.3s;
+  opacity: 0;
+}
+
+.animate-delay-4 {
+  animation-delay: 0.4s;
+  opacity: 0;
+}
