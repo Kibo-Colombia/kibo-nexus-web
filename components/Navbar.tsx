@@ -1,10 +1,16 @@
+
 import Link from "next/link";
+import UserMenu from "./UserMenu";
+import { createClient } from "@/lib/supabase/server";
 
 interface NavbarProps {
     transparent?: boolean;
 }
 
-export default function Navbar({ transparent = false }: NavbarProps) {
+export default async function Navbar({ transparent = false }: NavbarProps) {
+    const supabase = await createClient();
+    const { data: { user } } = await supabase.auth.getUser();
+
     return (
         <nav
             className={`fixed top-0 left-0 right-0 z-50 ${transparent ? "bg-transparent" : "bg-background border-b border-border"
@@ -48,6 +54,8 @@ export default function Navbar({ transparent = false }: NavbarProps) {
                         >
                             Contact
                         </a>
+
+                        <UserMenu user={user} />
                     </div>
                 </div>
             </div>
