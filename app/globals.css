@@ -1,3 +1,35 @@
+/*
+  === BRAND COLORS - STRICT ===
+  We must ONLY use the following colors:
+
+  Palette 1 (Core):
+  - Purple: #614FBB
+  - Red:    #C24656
+  - Dark:   #1E4332
+  - Blue:   #65A1C9
+  - Mint L: #A9D9C7
+  - White:  #F2F2F2
+
+  Palette 2 (Greens):
+  - Dark 2: #1B4034
+  - Forest: #477365
+  - Sage:   #88A69C
+  - Mint 2: #A9D9CA
+  - Aqua:   #94FFDD
+
+  DESIGN RULES (STRICT):
+  1. NO GRADIENTS. Use solid colors only.
+  2. NO BLURS OR GLOWS. Maintain a sharp, clean aesthetic.
+  3. MINIMALIST. Avoid unnecessary decorations.
+  4. Use the defined palette variables (--color-*) whenever possible.
+
+  COLOR USAGES:
+  - Blue (Living): RARE. Use ONLY for Titles/Headings to draw focus.
+  - Red (Present): SECONDARY option. Use when Blue is present but another distinction is needed (e.g., comments).
+  - Purple (Future): LEAST USED. Only use if Blue AND Red are already present and a 3rd distinct color is absolutely necessary.
+  - Mint (Primary): DEFAULT. Use for all standard interactions (buttons, icons, links, accents).
+  - White (Foreground): Text and high-contrast hover states.
+*/
 @import "tailwindcss";
 
 /* === KIBO CAMPUS - MINIMALIST THEME === */
@@ -32,6 +64,7 @@
   --color-saving: #A9D9C7;
   --color-future: #614FBB;
   --color-kibo-dark: #1E4332;
+  --color-white: #F2F2F2;
 }
 
 :root {
@@ -98,7 +131,7 @@
 
 .kibo-card-hover:hover {
   transform: scale(1.02);
-  border-color: #C6EADD;
+  border-color: #F2F2F2;
 }
 
 .kibo-button {
@@ -159,9 +192,9 @@
 }
 
 .kibo-button-outline:hover {
-  background: #C6EADD;
+  background: #F2F2F2;
   color: #1E4332;
-  border-color: #C6EADD;
+  border-color: #F2F2F2;
 }
 
 .kibo-button-outline:active {

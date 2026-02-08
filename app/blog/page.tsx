@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { Calendar, Clock, ArrowLeft } from "lucide-react";
+import { Calendar, Clock } from "lucide-react";
 import Link from "next/link";
 
 const blogPosts = [
@@ -12,7 +12,7 @@ const blogPosts = [
         date: "2026-02-07",
         readTime: "5 min",
         category: "Vision",
-        color: "#614FBB",
+        color: "#A9D9C7",
     },
     {
         id: 2,
@@ -32,7 +32,7 @@ const blogPosts = [
         date: "2026-02-05",
         readTime: "6 min",
         category: "Education",
-        color: "#614FBB",
+        color: "#A9D9C7",
     },
 ];
 
@@ -43,19 +43,10 @@ export default function BlogPage() {
 
             <div className="pt-24 pb-12 px-6">
                 <div className="max-w-4xl mx-auto">
-                    {/* Back Button */}
-                    <Link
-                        href="/"
-                        className="inline-flex items-center gap-2 text-foreground hover:text-primary transition-colors mb-8 font-semibold"
-                    >
-                        <ArrowLeft size={20} />
-                        Back to Home
-                    </Link>
-
                     {/* Header */}
                     <div className="mb-16 animate-fade-in-up">
                         <h1 className="section-title mb-4">
-                            Blog <span className="text-gradient">&amp; Newsletter</span>
+                            Blog <span className="text-primary">&amp; Newsletter</span>
                         </h1>
                         <p className="section-subtitle max-w-2xl font-medium">
                             Thoughts, ideas, and updates about the Kibo ecosystem.
@@ -65,7 +56,7 @@ export default function BlogPage() {
 
                     {/* Newsletter Signup */}
                     <div className="kibo-card border-2 border-primary p-8 mb-12 animate-fade-in-up animate-delay-1">
-                        <h2 className="text-2xl font-bold mb-3 text-gradient">
+                        <h2 className="text-2xl font-bold mb-3 text-primary">
                             Subscribe to the Newsletter
                         </h2>
                         <p className="text-foreground mb-6 font-medium">
@@ -98,11 +89,7 @@ export default function BlogPage() {
                                     <div className="flex-1">
                                         <div className="flex flex-wrap items-center gap-4 mb-4">
                                             <span
-                                                className="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-sm border"
-                                                style={{
-                                                    borderColor: post.color,
-                                                    color: post.color,
-                                                }}
+                                                className="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-sm border text-primary border-primary"
                                             >
                                                 {post.category}
                                             </span>
@@ -122,8 +109,7 @@ export default function BlogPage() {
                                             </div>
                                         </div>
                                         <h2
-                                            className="text-2xl font-bold mb-4"
-                                            style={{ color: post.color }}
+                                            className="text-2xl font-bold mb-4 text-foreground"
                                         >
                                             {post.title}
                                         </h2>
