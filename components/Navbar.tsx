@@ -37,6 +37,12 @@ export default function Navbar({ transparent = false }: NavbarProps) {
                             Journal
                         </a>
                         <a
+                            href="/spark"
+                            className="text-foreground hover:text-primary transition-colors font-semibold flex items-center gap-1"
+                        >
+                            <span className="bg-gradient-to-r from-primary to-purple-400 bg-clip-text text-transparent">Spark</span>
+                        </a>
+                        <a
                             href="/#contact"
                             className="kibo-button-outline text-sm"
                         >

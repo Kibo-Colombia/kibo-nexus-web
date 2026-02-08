@@ -104,6 +104,6 @@ While the specific financial logic of *Kibo CFO* is private (for security), this
 **© 2026 Kibo Colombia S.A.S.**
 *Made with 💛💙❤️ and purpose.*
 
-[Twitter](https://twitter.com/tu_usuario) · [LinkedIn](https://linkedin.com/in/tu_usuario) · [Contact](mailto:hello@mykibo.site)
+[Twitter](https://x.com/mykibo_colombia) · [Instagram](https://instagram.com/mykibo.co) · [TikTok](https://tiktok.com/@mykibo.co) · [Contact](mailto:mykibocolombia@gmail.com)
 
 </div>

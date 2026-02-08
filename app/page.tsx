@@ -177,7 +177,7 @@ export default function Home() {
                 Launch Kibo CFO
               </a>
               <a
-                href="mailto:hello@mykibo.site"
+                href="mailto:mykibocolombia@gmail.com"
                 className="kibo-button-outline"
               >
                 Contact Us

@@ -64,15 +64,42 @@ export default function Footer() {
                     <div>
                         <h4 className="font-bold text-foreground mb-4 text-lg">Connect</h4>
                         <ul className="space-y-3 text-sm font-semibold mb-4">
-                            <li><a href="#" className="text-foreground hover:text-primary transition-colors">Twitter / X</a></li>
-                            <li><a href="#" className="text-foreground hover:text-primary transition-colors">LinkedIn</a></li>
-                            <li><a href="#" className="text-foreground hover:text-primary transition-colors">GitHub</a></li>
+                            <li>
+                                <a
+                                    href="https://x.com/mykibo_colombia"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-foreground hover:text-primary transition-colors"
+                                >
+                                    Twitter / X
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://instagram.com/mykibo.co"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-foreground hover:text-primary transition-colors"
+                                >
+                                    Instagram
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://tiktok.com/@mykibo.co"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-foreground hover:text-primary transition-colors"
+                                >
+                                    TikTok
+                                </a>
+                            </li>
                         </ul>
                         <a
-                            href="mailto:hello@mykibo.site"
+                            href="mailto:mykibocolombia@gmail.com"
                             className="text-primary hover:text-accent transition-colors text-sm font-bold block"
                         >
-                            hello@mykibo.site
+                            mykibocolombia@gmail.com
                         </a>
                     </div>
                 </div>
