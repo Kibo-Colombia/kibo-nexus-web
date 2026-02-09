@@ -1,7 +1,7 @@
 
 "use client";
 
-import { Flame, MessageCircle, Share2, MoreHorizontal, Bookmark, Clock } from "lucide-react";
+import { Flame, MessageCircle, Share2, MoreHorizontal, Bookmark, Clock, Plus } from "lucide-react";
 import { useState } from "react";
 
 // Placeholder data for the Spark feed (Moved from page.tsx)
@@ -227,6 +227,17 @@ export default function SparkFeed() {
                 </div>
 
             </div>
+
+            {/* FAB - Compose Button */}
+            <a
+                href="/spark/compose"
+                className="fixed bottom-8 right-8 w-14 h-14 bg-primary text-background rounded-full flex items-center justify-center shadow-lg hover:scale-110 hover:shadow-xl transition-all duration-300 z-50 group border-2 border-transparent hover:border-background"
+                title="Add your Granite of Sand"
+            >
+                <div className="relative">
+                    <Plus size={28} className="group-hover:rotate-90 transition-transform duration-300" strokeWidth={3} />
+                </div>
+            </a>
         </div>
     );
 }
