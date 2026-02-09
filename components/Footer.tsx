@@ -22,7 +22,7 @@ export default function Footer() {
                                     href="https://cfo.mykibo.site"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-foreground hover:text-saving transition-colors"
+                                    className="text-foreground hover:text-living transition-colors"
                                 >
                                     CFO - Finance
                                 </a>
@@ -32,7 +32,7 @@ export default function Footer() {
                                     href="https://learn.mykibo.site"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-foreground hover:text-future transition-colors"
+                                    className="text-foreground hover:text-present transition-colors"
                                 >
                                     Dojo - Education
                                 </a>
@@ -42,7 +42,7 @@ export default function Footer() {
                                     href="https://studio.mykibo.site"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-foreground hover:text-accent transition-colors"
+                                    className="text-foreground hover:text-saving transition-colors"
                                 >
                                     Studio - Media
                                 </a>
@@ -52,7 +52,7 @@ export default function Footer() {
                                     href="https://lab.mykibo.site"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-foreground hover:text-present transition-colors"
+                                    className="text-foreground hover:text-future transition-colors"
                                 >
                                     Lab - Innovation
                                 </a>

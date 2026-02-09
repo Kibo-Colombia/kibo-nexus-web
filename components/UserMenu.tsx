@@ -31,11 +31,11 @@ export default function UserMenu({ user }: UserMenuProps) {
         <div className="relative inline-block text-left" ref={menuRef}>
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="text-foreground hover:text-primary transition-colors flex items-center justify-center p-2 rounded-full hover:bg-white/5 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50"
+                className="text-foreground hover:text-primary transition-colors flex items-center justify-center p-2.5 rounded-full hover:bg-white/5 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50"
                 aria-label="User Options"
                 aria-expanded={isOpen}
             >
-                <User className="w-5 h-5" />
+                <User className="w-6 h-6" />
             </button>
 
             {isOpen && (

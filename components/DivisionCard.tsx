@@ -1,17 +1,31 @@
 "use client";
-
-import { ArrowRight, Wallet, GraduationCap, Clapperboard, FlaskConical } from "lucide-react";
+import Image from "next/image";
+import { ArrowRight } from "lucide-react";
 import { DIVISIONS } from "@/lib/constants";
 
-const getDivisionIcon = (id: string, color: string) => {
-    const props = { size: 32, style: { color } };
+const getDivisionIcon = (id: string, name: string) => {
+    // Determine the icon path based on the division ID
+    let iconPath = "";
     switch (id) {
-        case "cfo": return <Wallet {...props} />;
-        case "academy": return <GraduationCap {...props} />;
-        case "studio": return <Clapperboard {...props} />;
-        case "lab": return <FlaskConical {...props} />;
-        default: return <Wallet {...props} />;
+        case "cfo": iconPath = "/icons/cfo.png"; break;
+        case "dojo": iconPath = "/icons/dojo.png"; break;
+        case "studio": iconPath = "/icons/studio.png"; break;
+        case "lab": iconPath = "/icons/lab.png"; break;
+        case "nexus": iconPath = "/icons/nexus.png"; break;
+        default: iconPath = "/icons/cfo.png"; break;
     }
+
+    return (
+        <div className="relative w-16 h-16 rounded-xl overflow-hidden shadow-sm">
+            <Image
+                src={iconPath}
+                alt={`${name} icon`}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            />
+        </div>
+    );
 };
 
 export default function DivisionCard() {
@@ -26,11 +40,8 @@ export default function DivisionCard() {
                     className={`kibo-card-hover animate-fade-in-up animate-delay-${index + 1} block group`}
                 >
                     <div className="flex items-start gap-4">
-                        <div
-                            className="w-16 h-16 flex items-center justify-center rounded-xl border-2 flex-shrink-0"
-                            style={{ borderColor: division.color }}
-                        >
-                            {getDivisionIcon(division.id, division.color)}
+                        <div className="flex-shrink-0">
+                            {getDivisionIcon(division.id, division.name)}
                         </div>
                         <div className="flex-1">
                             <h3

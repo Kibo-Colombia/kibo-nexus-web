@@ -45,7 +45,7 @@ export default async function MyKiboPage() {
 
                         <div className="kibo-card border-primary/20 p-0 overflow-hidden">
                             <form action={signOut}>
-                                <button className="w-full flex items-center gap-3 px-6 py-4 hover:bg-red-500/10 hover:text-red-500 transition-colors text-left">
+                                <button className="w-full flex items-center gap-3 px-6 py-4 hover:bg-present/10 hover:text-present transition-colors text-left">
                                     <LogOut size={20} />
                                     <span>Sign Out</span>
                                 </button>
@@ -66,12 +66,12 @@ export default async function MyKiboPage() {
                                 <div className="p-4 rounded-lg bg-secondary/50 border border-border/50 hover:border-primary/50 transition-colors">
                                     <div className="font-bold mb-1">Kibo CFO</div>
                                     <p className="text-xs text-muted-foreground">Finance & Budgeting</p>
-                                    <span className="inline-block mt-2 text-xs bg-green-500/10 text-green-500 px-2 py-1 rounded-full">Active</span>
+                                    <span className="inline-block mt-2 text-xs bg-primary/10 text-primary px-2 py-1 rounded-full">Active</span>
                                 </div>
                                 <div className="p-4 rounded-lg bg-secondary/50 border border-border/50 hover:border-primary/50 transition-colors">
                                     <div className="font-bold mb-1">Kibo Nexus</div>
                                     <p className="text-xs text-muted-foreground">This Application</p>
-                                    <span className="inline-block mt-2 text-xs bg-blue-500/10 text-blue-500 px-2 py-1 rounded-full">Current</span>
+                                    <span className="inline-block mt-2 text-xs bg-accent/10 text-accent px-2 py-1 rounded-full">Current</span>
                                 </div>
                             </div>
                         </div>
