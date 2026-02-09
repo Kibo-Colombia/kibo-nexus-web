@@ -8,10 +8,11 @@ import UserMenu from "./UserMenu";
 
 interface NavbarClientProps {
     user: any;
+    profile?: any;
     transparent?: boolean;
 }
 
-export default function NavbarClient({ user, transparent = false }: NavbarClientProps) {
+export default function NavbarClient({ user, profile, transparent = false }: NavbarClientProps) {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
@@ -54,12 +55,12 @@ export default function NavbarClient({ user, transparent = false }: NavbarClient
                         >
                             Contact
                         </a>
-                        <UserMenu user={user} />
+                        <UserMenu user={user} profile={profile} />
                     </div>
 
                     {/* Mobile Controls */}
                     <div className="flex md:hidden items-center gap-4">
-                        <UserMenu user={user} />
+                        <UserMenu user={user} profile={profile} />
                         <button
                             onClick={toggleMenu}
                             className="text-foreground p-2 focus:outline-none"

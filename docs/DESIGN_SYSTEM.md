@@ -21,26 +21,35 @@ The design should reflect stability, growth, and clarity. Kibo designs are minim
 - Values:
   - `var(--color-primary)` / `#A9D9C7` (Mint - Saving)
   - `var(--color-kibo-dark)` / `#1E4332` (Dark Green Background)
-  - `var(--color-forest)` / `#477365` (Forest Green)
+  - `var(--color-forest)` / `#477365` (Forest Green - Mid Tone)
   - `var(--color-white)` / `#F2F2F2` (Text / Foreground)
 
-**2. Blue (Living)**
+**2. Blue Palette (Living)**
 
 - **Status**: **MANUAL SELECTION ONLY**.
+- Used for: **Kibo CFO** branding and specific "Living" states.
 - Values:
-  - `var(--color-living)` / `#65A1C9` (Living Blue)
+  - `var(--color-living)` / `#65A1C9` (Living Blue - Main)
+  - `var(--color-living-dark)` / `#1A3040` (Dark Blue Background)
+  - `var(--color-living-mid)` / `#3E6D8D` (Mid Tone Blue)
 
-**3. Red (Present)**
+**3. Red Palette (Present)**
 
 - **Status**: **MANUAL SELECTION ONLY**.
+- Used for: Alerts, secondary distinctions, or "Present" states.
 - Values:
-  - `var(--color-present)` / `#C24656` (Red)
+  - `var(--color-present)` / `#C24656` (Red - Main)
+  - `var(--color-present-dark)` / `#421C22` (Dark Red Background)
+  - `var(--color-present-mid)` / `#8C333F` (Mid Tone Red)
 
-**4. Purple (Future)**
+**4. Purple Palette (Future)**
 
 - **Status**: **MANUAL SELECTION ONLY**.
+- Used for: Long-term goals, "Future" states.
 - Values:
-  - `var(--color-future)` / `#614FBB` (Future Purple)
+  - `var(--color-future)` / `#614FBB` (Future Purple - Main)
+  - `var(--color-future-dark)` / `#231B45` (Dark Purple Background)
+  - `var(--color-future-mid)` / `#463988` (Mid Tone Purple)
 
 ## Component Rules
 
@@ -61,5 +70,5 @@ The design should reflect stability, growth, and clarity. Kibo designs are minim
 
 ## Spacing & Layout
 
-- Use generous padding (`p-6`, `p-8` for cards).
-- Centers content with `max-w-6xl` containers.
+- **Padding**: Use generous padding (`p-6`, `p-8` for cards).
+- **Layout**: Center content with `max-w-6xl` containers.

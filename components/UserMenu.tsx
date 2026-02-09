@@ -8,11 +8,14 @@ import { signOut } from '@/app/actions' // Need to make this action globally ava
 
 interface UserMenuProps {
     user: any // Supabase user type
+    profile?: any
 }
 
-export default function UserMenu({ user }: UserMenuProps) {
+export default function UserMenu({ user, profile }: UserMenuProps) {
     const [isOpen, setIsOpen] = useState(false)
     const menuRef = useRef<HTMLDivElement>(null)
+
+    const avatarUrl = profile?.avatar_url || user?.user_metadata?.avatar_url
 
     useEffect(() => {
         function handleClickOutside(event: MouseEvent) {
@@ -31,11 +34,23 @@ export default function UserMenu({ user }: UserMenuProps) {
         <div className="relative inline-block text-left" ref={menuRef}>
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="text-foreground hover:text-primary transition-colors flex items-center justify-center p-2.5 rounded-full hover:bg-white/5 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50"
+                className="text-foreground hover:text-primary transition-colors flex items-center justify-center p-1 rounded-full hover:bg-white/5 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50"
                 aria-label="User Options"
                 aria-expanded={isOpen}
             >
-                <User className="w-6 h-6" />
+                {avatarUrl ? (
+                    <div className="w-8 h-8 rounded-full overflow-hidden border border-primary/50">
+                        <img
+                            src={avatarUrl}
+                            alt="User"
+                            className="w-full h-full object-cover"
+                        />
+                    </div>
+                ) : (
+                    <div className="p-1.5">
+                        <User className="w-6 h-6" />
+                    </div>
+                )}
             </button>
 
             {isOpen && (
@@ -56,6 +71,14 @@ export default function UserMenu({ user }: UserMenuProps) {
 
                                 <Link
                                     href="/my-kibo"
+                                    className="group flex w-full items-center px-4 py-2 text-sm text-foreground hover:bg-[#A9D9C7] hover:text-[#1E4332] transition-colors"
+                                >
+                                    <User className="mr-3 h-4 w-4" aria-hidden="true" />
+                                    Profile
+                                </Link>
+
+                                <Link
+                                    href="/my-kibo/settings"
                                     className="group flex w-full items-center px-4 py-2 text-sm text-foreground hover:bg-[#A9D9C7] hover:text-[#1E4332] transition-colors"
                                 >
                                     <Settings className="mr-3 h-4 w-4" aria-hidden="true" />

@@ -5,18 +5,18 @@
 
 export const KIBO_COLORS = {
     // Core Palette
-    Living: "#65A1C9",  // Blue (CFO)
-    Present: "#C24656", // Red (Dojo)
-    Saving: "#A9D9C7",  // Mint (Studio)
-    Future: "#614FBB",  // Purple (Lab)
-    Nexus: "#10B981",   // Green (Nexus)
+    Living: "var(--color-living)",  // Blue (CFO)
+    Present: "var(--color-present)", // Red (Dojo)
+    Saving: "var(--color-primary)",  // Mint (Studio) - Using Primary for consistency
+    Future: "var(--color-future)",  // Purple (Lab)
+    Nexus: "var(--color-primary)",   // Green (Nexus)
 
     // UI Colors
-    Background: "#1E4332",
-    Foreground: "#F2F2F2",
-    Border: "#A9D9C7",
-    Primary: "#A9D9C7",
-    Secondary: "#614FBB",
+    Background: "var(--background)",
+    Foreground: "var(--foreground)",
+    Border: "var(--border)",
+    Primary: "var(--primary)",
+    Secondary: "var(--secondary)",
 } as const;
 
 export const DIVISIONS = [

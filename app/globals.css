@@ -60,9 +60,18 @@
 
   /* Kibo Palette - Pure Solid Colors */
   --color-living: #65A1C9;
+  --color-living-dark: #1A3040;
+  --color-living-mid: #3E6D8D;
+
   --color-present: #C24656;
+  --color-present-dark: #421C22;
+  --color-present-mid: #8C333F;
+
   --color-saving: #A9D9C7;
   --color-future: #614FBB;
+  --color-future-dark: #231B45;
+  --color-future-mid: #463988;
+
   --color-nexus: #10B981;
   --color-kibo-dark: #1E4332;
   --color-white: #F2F2F2;

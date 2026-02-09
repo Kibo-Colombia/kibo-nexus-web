@@ -14,16 +14,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kibo Nexus",
+  title: "Mykibo Nexus",
   description: "The complete digital ecosystem to manage your finances, education, and create multimedia content. Building hope, one dream at a time.",
-  keywords: ["Kibo", "Digital Campus", "Personal Finance", "Online Education", "Multimedia"],
-  authors: [{ name: "Kibo" }],
+  keywords: ["Mykibo", "Self-development", "Personal Finance", "Education", "Content Creation", "Digital Campus"],
+  authors: [{ name: "Mykibo" }],
   openGraph: {
-    title: "Kibo Nexus",
+    title: "Mykibo Nexus",
     description: "The complete digital ecosystem to manage your finances, education, and create multimedia content.",
     type: "website",
     locale: "en_US",
-    siteName: "Kibo Nexus",
+    siteName: "Mykibo Nexus",
   },
 };
 
