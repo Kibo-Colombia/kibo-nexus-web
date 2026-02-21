@@ -1,7 +1,7 @@
 # 🦊 Kibo Nexus (mykibo.site)
 
-> **"Engineering Hope. Building Legacy."**
-> *More than an ecosystem. It's the bridge between where you are and who you want to become.*
+> **"Inspire the vision, provide the means, guarantee the action."**
+> *More than an ecosystem. We are the community that turns aspirations into projects that improve the world.*
 
 ![Status](https://img.shields.io/badge/Status-Live-success)
 ![Version](https://img.shields.io/badge/Version-2.0.0-blue)
@@ -10,17 +10,21 @@
 
 ---
 
-## 🌌 The Vision (The Soul)
+## 🌌 Vision (The Destination)
 
-**Kibo (希望)** means *Hope*. But we believe hope is not passive; it is a strategy.
+To become the **leading community for education and collective action**, where mental clarity translates into tangible projects that improve the world. We seek to build a self-sustaining environment that spans all branches of knowledge, supporting every initiative that emerges from our network to guarantee a **lasting and positive impact** on society.
 
-This repository hosts the **Central Hub** of the Kibo Ecosystem. It is the gateway to a suite of tools designed to elevate human potential, integrating financial health, wisdom, and creativity into one unified experience.
+## 🎯 Mission (The Daily Purpose)
 
-**Our Philosophy:**
+**Inspire the vision, provide the means, and guarantee the action.** Our mission is to equip every individual with the educational resources and strategic support needed to transform their aspirations into sustainable projects that fuel the growth of our society.
 
-- **Active Hope:** Fuel for action, not just a dream.
-- **Intentional Growth:** No noise, just signal.
-- **Relentless Execution:** Dreams without a plan are just illusions.
+## 🔄 Virtuous Cycle (The Method)
+
+**Expose → Enable → Empower**
+
+- **Expose:** We connect with people to invite them to develop their full potential by working hand-in-hand with us.
+- **Enable:** We deliver the infrastructure and training to take action.
+- **Empower:** We boost projects to maximize their impact.
 
 ---
 
@@ -28,13 +32,13 @@ This repository hosts the **Central Hub** of the Kibo Ecosystem. It is the gatew
 
 This project (`mykibo.site`) acts as the "Lobby". From here, users navigate to specialized "Rooms" (Subdomains):
 
-| Division | Subdomain | Status | Purpose |
-| :--- | :--- | :--- | :--- |
-| **The Hub** | `mykibo.site` | 🟢 Live | The central gateway & philosophy (This Repo). |
-| **Kibo CFO** | `cfo.mykibo.site` | 🟡 Beta | **Financial Ally.** Intelligent analysis for the Colombian reality. |
-| **Kibo Dojo** | `learn.mykibo.site` | 🔴 Planned | **Wisdom.** Educational content and mentorship. |
-| **Kibo Studio** | `studio.mykibo.site` | 🔴 Planned | **Legacy Media.** Stories that survive time. |
-| **Kibo Lab** | `lab.mykibo.site` | 🔴 Planned | **Innovation.** AI experiments and R&D. |
+| Division | Subdomain | Status | Cycle Phase | Purpose |
+| :--- | :--- | :--- | :--- | :--- |
+| **The Hub** | `mykibo.site` | 🟢 Live | — | The central gateway & manifesto (This Repo). |
+| **Kibo CFO** | `cfo.mykibo.site` | 🟡 Beta | Enable | **Financial Ally.** Intelligent analysis for the Colombian reality. |
+| **Kibo Dojo** | `learn.mykibo.site` | 🔴 Planned | Expose + Enable | **Wisdom.** Educational content and mentorship. |
+| **Kibo Studio** | `studio.mykibo.site` | 🔴 Planned | Empower | **Legacy Media.** Stories that survive time. |
+| **Kibo Lab** | `lab.mykibo.site` | 🔴 Planned | Enable + Empower | **Innovation.** AI experiments and R&D. |
 
 ---
 
@@ -53,17 +57,11 @@ Designed for speed, storytelling, and scalability.
 ## 📂 Project Structure
 
 ```bash
-/src
-  /app
-    /manifesto     # The "Why" of Kibo
-    /divisions     # Landing pages for ecosystem previews
-    /journal       # Thoughts on tech, life, and legacy
-  /components
-    /hero          # The "Engineering Hope" entry
-    /philosophy    # The core values cards
-    /ui            # Minimalist design system
-  /public
-    /assets        # Brand assets (Yes, the Shiba is here 🐕)
+/app             # Next.js App Router pages
+/components      # Reusable UI components
+/lib             # Utility functions (Supabase client, helpers)
+/docs            # Design and Project Documentation
+/public          # Brand assets (Yes, the Shiba is here 🐕)
 ```
 
 ---

@@ -4,7 +4,7 @@
 import { useState, useRef, useEffect } from 'react'
 import Link from 'next/link'
 import { User, LogIn, UserPlus, Settings, LogOut } from 'lucide-react'
-import { signOut } from '@/app/actions' // Need to make this action globally available
+import { signOut } from '@/lib/actions'
 
 interface UserMenuProps {
     user: any // Supabase user type

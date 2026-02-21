@@ -1,6 +1,6 @@
 /**
- * Centralized color palette for the Kibo Campus
- * Consistent with the entire Kibo ecosystem
+ * Centralized color palette for the Kibo Ecosystem
+ * Consistent with the Virtuous Cycle: Expose → Enable → Empower
  */
 
 export const KIBO_COLORS = {
@@ -23,16 +23,16 @@ export const DIVISIONS = [
     {
         id: "cfo",
         name: "CFO mykibo",
-        subtitle: "Your Financial Ally",
+        subtitle: "Enable — Your Financial Ally",
         description:
-            "Stop just managing money; start funding your freedom. Intelligent analysis built for the Colombian reality to help you reach your goals faster.",
+            "We provide the financial infrastructure to take action. Intelligent analysis built for the Colombian reality to help you reach your goals faster.",
         url: "cfo.mykibo.site",
         color: KIBO_COLORS.Living,
     },
     {
         id: "dojo",
         name: "Dojo mykibo",
-        subtitle: "Wisdom & Mastery",
+        subtitle: "Expose + Enable — Wisdom & Mastery",
         description:
             "We don't just teach skills; we build character. A space to learn, grow, and master the tools of the modern world.",
         url: "learn.mykibo.site",
@@ -41,7 +41,7 @@ export const DIVISIONS = [
     {
         id: "lab",
         name: "Lab mykibo",
-        subtitle: "R&D & AI",
+        subtitle: "Enable + Empower — R&D & AI",
         description: "Our playground for the future. Experimenting with AI agents and new technologies to solve tomorrow's problems.",
         url: "lab.mykibo.site",
         color: KIBO_COLORS.Future,
@@ -49,8 +49,8 @@ export const DIVISIONS = [
     {
         id: "studio",
         name: "Studio mykibo",
-        subtitle: "Legacy Media",
-        description: "Creating content that survives time. We produce stories that inspire, educate, and elevate the human spirit.",
+        subtitle: "Empower — Legacy Media",
+        description: "Amplifying impact through content. We produce stories that inspire, educate, and elevate the human spirit.",
         url: "studio.mykibo.site",
         color: KIBO_COLORS.Saving,
     },

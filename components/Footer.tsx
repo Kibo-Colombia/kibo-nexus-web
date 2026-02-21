@@ -1,5 +1,8 @@
+import { useTranslations } from 'next-intl';
+
 export default function Footer() {
     const currentYear = new Date().getFullYear();
+    const t = useTranslations('footer');
 
     return (
         <footer className="border-t border-border mt-24">
@@ -7,15 +10,15 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
                     {/* Brand */}
                     <div>
-                        <h3 className="text-2xl font-bold text-gradient mb-4">Kibo</h3>
+                        <h3 className="text-2xl font-bold text-gradient mb-4">MyKibo</h3>
                         <p className="text-foreground text-sm leading-relaxed font-medium">
-                            Engineering hope. Building legacy. From Tokyo to Colombia, for the world.
+                            {t('tagline')}
                         </p>
                     </div>
 
                     {/* Divisions */}
                     <div>
-                        <h4 className="font-bold text-foreground mb-4 text-lg">Divisions</h4>
+                        <h4 className="font-bold text-foreground mb-4 text-lg">{t('divisions_title')}</h4>
                         <ul className="space-y-3 text-sm font-semibold">
                             <li>
                                 <a
@@ -24,7 +27,7 @@ export default function Footer() {
                                     rel="noopener noreferrer"
                                     className="text-foreground hover:text-living transition-colors"
                                 >
-                                    CFO - Finance
+                                    {t('cfo')}
                                 </a>
                             </li>
                             <li>
@@ -34,7 +37,7 @@ export default function Footer() {
                                     rel="noopener noreferrer"
                                     className="text-foreground hover:text-present transition-colors"
                                 >
-                                    Dojo - Education
+                                    {t('dojo')}
                                 </a>
                             </li>
                             <li>
@@ -44,7 +47,7 @@ export default function Footer() {
                                     rel="noopener noreferrer"
                                     className="text-foreground hover:text-saving transition-colors"
                                 >
-                                    Studio - Media
+                                    {t('studio')}
                                 </a>
                             </li>
                             <li>
@@ -54,7 +57,7 @@ export default function Footer() {
                                     rel="noopener noreferrer"
                                     className="text-foreground hover:text-future transition-colors"
                                 >
-                                    Lab - Innovation
+                                    {t('lab')}
                                 </a>
                             </li>
                         </ul>
@@ -62,7 +65,7 @@ export default function Footer() {
 
                     {/* Connect */}
                     <div>
-                        <h4 className="font-bold text-foreground mb-4 text-lg">Connect</h4>
+                        <h4 className="font-bold text-foreground mb-4 text-lg">{t('connect_title')}</h4>
                         <ul className="space-y-3 text-sm font-semibold mb-4">
                             <li>
                                 <a
@@ -107,7 +110,7 @@ export default function Footer() {
                 {/* Copyright */}
                 <div className="pt-8 border-t border-border">
                     <p className="text-center text-foreground text-sm font-medium">
-                        © 2026 Kibo Colombia S.A.S. Made with 💛💙❤️ and purpose.
+                        {t('copyright', { year: currentYear })}
                     </p>
                 </div>
             </div>

@@ -1,9 +1,8 @@
 # Kibo Design System
 
-## Core Philosophy
+## Core Rules
 
-**Engineering Hope. Building Legacy.**
-The design should reflect stability, growth, and clarity. Kibo designs are minimalist, functional, and visually striking without relying on gradients or glows.
+The design must reflect stability, growth, and clarity. Kibo designs are minimalist, functional, and visually striking without relying on gradients or glows.
 
 ## Aesthetics
 

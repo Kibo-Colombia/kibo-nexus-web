@@ -1,0 +1,110 @@
+{
+    "nav": {
+        "ecosystem": "Ecossistema",
+        "journal": "Diário",
+        "spark": "Spark",
+        "contact": "Contato"
+    },
+    "hero": {
+        "title_1": "Inspire a",
+        "title_highlight_1": "Visão",
+        "title_2": "Garanta a",
+        "title_highlight_2": "Ação",
+        "subtitle": "Somos a comunidade que transforma aspirações em projetos sustentáveis. Educação, infraestrutura e ação coletiva para melhorar o mundo.",
+        "cta_vision": "Descubra Nossa Visão",
+        "cta_cycle": "O Ciclo Virtuoso",
+        "mascot_alt": "Mascote Kibo"
+    },
+    "essence": {
+        "title_prefix": "Nossa",
+        "title_highlight": "Essência",
+        "subtitle": "Clareza mental se traduz em projetos tangíveis que melhoram o mundo.",
+        "vision_title": "Visão",
+        "vision_label": "O Destino",
+        "vision_text": "Tornar-se a comunidade líder em educação e ação coletiva, onde a clareza mental se traduz em projetos tangíveis que melhoram o mundo. Buscamos construir um ambiente autossustentável que abranja todos os ramos do conhecimento.",
+        "mission_title": "Missão",
+        "mission_label": "O Propósito Diário",
+        "mission_text": "Inspirar a visão, fornecer os meios e garantir a ação. Equipar cada indivíduo com os recursos educacionais e o apoio estratégico necessário para transformar suas aspirações em projetos sustentáveis."
+    },
+    "cycle": {
+        "title_prefix": "Ciclo",
+        "title_highlight": "Virtuoso",
+        "subtitle": "Nosso método: Expor → Habilitar → Empoderar",
+        "expose_title": "Expor",
+        "expose_label": "Mostrar o caminho",
+        "expose_text": "Conectamos com pessoas para convidá-las a desenvolver seu potencial máximo trabalhando lado a lado conosco. Eliminamos a incerteza.",
+        "enable_title": "Habilitar",
+        "enable_label": "As ferramentas para agir",
+        "enable_text": "Entregamos a infraestrutura e o treinamento para agir. Fornecemos as ferramentas, o conhecimento e a comunidade para dar o primeiro passo com confiança.",
+        "empower_title": "Empoderar",
+        "empower_label": "Maximizar o impacto",
+        "empower_text": "Impulsionamos projetos para maximizar seu impacto. Cada projeto bem-sucedido fortalece a rede, criando um efeito multiplicador."
+    },
+    "values": {
+        "title_prefix": "Nossos",
+        "title_highlight": "Valores",
+        "subtitle": "Os pilares que sustentam cada decisão e cada projeto.",
+        "collective_title": "Ação Coletiva",
+        "collective_text": "O progresso individual empodera o coletivo. Cada membro que cresce fortalece toda a rede e abre portas para os demais.",
+        "clarity_title": "Clareza Mental",
+        "clarity_text": "Uma visão clara precede uma execução eficaz. Primeiro entendemos, depois agimos com precisão e propósito.",
+        "sustainability_title": "Autossustentabilidade",
+        "sustainability_text": "Cada projeto deve ser capaz de se sustentar e crescer por conta própria. Construímos para a autonomia, não para a dependência.",
+        "impact_title": "Impacto Duradouro",
+        "impact_text": "Construímos para transcender gerações. Não perseguimos resultados temporários — construímos legado permanente."
+    },
+    "divisions": {
+        "title_prefix": "O",
+        "title_highlight": "Ecossistema",
+        "subtitle": "Cada divisão é uma engrenagem do Ciclo Virtuoso: Expor, Habilitar, Empoderar.",
+        "cfo_subtitle": "Habilitar — Seu Aliado Financeiro",
+        "cfo_description": "Fornecemos a infraestrutura financeira para agir. Análise inteligente construída para a realidade colombiana para ajudá-lo a alcançar seus objetivos mais rápido.",
+        "dojo_subtitle": "Expor + Habilitar — Sabedoria e Maestria",
+        "dojo_description": "Não apenas ensinamos habilidades; construímos caráter. Um espaço para aprender, crescer e dominar as ferramentas do mundo moderno.",
+        "lab_subtitle": "Habilitar + Empoderar — P&D e IA",
+        "lab_description": "Nosso laboratório para o futuro. Experimentando com agentes de IA e novas tecnologias para resolver os problemas de amanhã.",
+        "studio_subtitle": "Empoderar — Mídia de Legado",
+        "studio_description": "Amplificando o impacto através do conteúdo. Produzimos histórias que inspiram, educam e elevam o espírito humano."
+    },
+    "cta": {
+        "title_prefix": "Junte-se ao",
+        "title_highlight": "Ciclo",
+        "subtitle": "O primeiro passo é a clareza. O segundo é a ação. Caminhamos com você em ambos.",
+        "explore_cfo": "Explorar CFO mykibo",
+        "contact_us": "Fale Conosco"
+    },
+    "footer": {
+        "tagline": "Inspirar a visão, fornecer os meios, garantir a ação. Da Colômbia, para o mundo.",
+        "divisions_title": "Divisões",
+        "cfo": "CFO - Finanças",
+        "dojo": "Dojo - Educação",
+        "studio": "Studio - Mídia",
+        "lab": "Lab - Inovação",
+        "connect_title": "Conectar",
+        "copyright": "© {year} Kibo Colombia S.A.S. Feito com 💛💙❤️ e propósito."
+    },
+    "login": {
+        "title": "Bem-vindo de Volta",
+        "subtitle": "Entre na sua conta Kibo",
+        "email": "E-mail",
+        "password": "Senha",
+        "submit": "Entrar",
+        "no_account": "Não tem uma conta?",
+        "sign_up": "Cadastre-se"
+    },
+    "signup": {
+        "title": "Criar Conta",
+        "subtitle": "Junte-se ao ecossistema Kibo",
+        "full_name": "Nome Completo",
+        "email": "E-mail",
+        "password": "Senha",
+        "password_placeholder": "Mínimo 6 caracteres",
+        "submit": "Cadastrar",
+        "has_account": "Já tem uma conta?",
+        "sign_in": "Entrar"
+    },
+    "metadata": {
+        "title": "Mykibo Nexus",
+        "description": "O ecossistema digital completo para gerenciar suas finanças, educação e criar conteúdo multimídia. Construindo esperança, um sonho de cada vez."
+    }
+}

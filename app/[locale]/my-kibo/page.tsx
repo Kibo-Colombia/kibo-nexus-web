@@ -1,7 +1,7 @@
 
 import { createClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
-import { signOut } from './actions'
+import { signOut } from '@/lib/actions'
 import Navbar from '@/components/Navbar'
 import { User, Settings, LogOut } from 'lucide-react'
 import ProfileForm from '@/components/ProfileForm'

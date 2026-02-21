@@ -1,0 +1,110 @@
+{
+    "nav": {
+        "ecosystem": "Ecosistema",
+        "journal": "Diario",
+        "spark": "Spark",
+        "contact": "Contacto"
+    },
+    "hero": {
+        "title_1": "Inspira la",
+        "title_highlight_1": "Visión",
+        "title_2": "Garantiza la",
+        "title_highlight_2": "Acción",
+        "subtitle": "Somos la comunidad que transforma aspiraciones en proyectos sostenibles. Educación, infraestructura y acción colectiva para mejorar el mundo.",
+        "cta_vision": "Descubre Nuestra Visión",
+        "cta_cycle": "El Ciclo Virtuoso",
+        "mascot_alt": "Mascota Kibo"
+    },
+    "essence": {
+        "title_prefix": "Nuestra",
+        "title_highlight": "Esencia",
+        "subtitle": "La claridad mental se traduce en proyectos tangibles que mejoran el mundo.",
+        "vision_title": "Visión",
+        "vision_label": "El Destino",
+        "vision_text": "Convertirnos en la comunidad líder en educación y acción colectiva, donde la claridad mental se traduce en proyectos tangibles que mejoran el mundo. Buscamos construir un entorno autosostenible que abarque todas las ramas del conocimiento.",
+        "mission_title": "Misión",
+        "mission_label": "El Propósito Diario",
+        "mission_text": "Inspirar la visión, proveer los medios y garantizar la acción. Equipar a cada individuo con los recursos educativos y el apoyo estratégico necesario para transformar sus aspiraciones en proyectos sostenibles."
+    },
+    "cycle": {
+        "title_prefix": "Ciclo",
+        "title_highlight": "Virtuoso",
+        "subtitle": "Nuestro método: Exponer → Habilitar → Potenciar",
+        "expose_title": "Exponer",
+        "expose_label": "Mostrar el camino",
+        "expose_text": "Conectamos con personas para invitarlas a desarrollar su máximo potencial trabajando de la mano con nosotros. Eliminamos la incertidumbre.",
+        "enable_title": "Habilitar",
+        "enable_label": "Las herramientas para actuar",
+        "enable_text": "Entregamos la infraestructura y la formación para tomar acción. Proveemos las herramientas, el conocimiento y la comunidad para dar el primer paso con confianza.",
+        "empower_title": "Potenciar",
+        "empower_label": "Maximizar el impacto",
+        "empower_text": "Impulsamos proyectos para maximizar su impacto. Cada proyecto exitoso fortalece la red, creando un efecto multiplicador."
+    },
+    "values": {
+        "title_prefix": "Nuestros",
+        "title_highlight": "Valores",
+        "subtitle": "Los pilares que sostienen cada decisión y cada proyecto.",
+        "collective_title": "Acción Colectiva",
+        "collective_text": "El progreso individual empodera al colectivo. Cada miembro que crece fortalece toda la red y abre puertas para los demás.",
+        "clarity_title": "Claridad Mental",
+        "clarity_text": "Una visión clara precede a una ejecución efectiva. Primero entendemos, luego actuamos con precisión y propósito.",
+        "sustainability_title": "Autosostenibilidad",
+        "sustainability_text": "Cada proyecto debe poder sostenerse y crecer por sí mismo. Construimos para la autonomía, no para la dependencia.",
+        "impact_title": "Impacto Duradero",
+        "impact_text": "Construimos para trascender generaciones. No perseguimos resultados temporales — construimos legado permanente."
+    },
+    "divisions": {
+        "title_prefix": "El",
+        "title_highlight": "Ecosistema",
+        "subtitle": "Cada división es un engranaje del Ciclo Virtuoso: Exponer, Habilitar, Potenciar.",
+        "cfo_subtitle": "Habilitar — Tu Aliado Financiero",
+        "cfo_description": "Proveemos la infraestructura financiera para tomar acción. Análisis inteligente construido para la realidad colombiana para ayudarte a alcanzar tus metas más rápido.",
+        "dojo_subtitle": "Exponer + Habilitar — Sabiduría y Maestría",
+        "dojo_description": "No solo enseñamos habilidades; construimos carácter. Un espacio para aprender, crecer y dominar las herramientas del mundo moderno.",
+        "lab_subtitle": "Habilitar + Potenciar — I+D e IA",
+        "lab_description": "Nuestro laboratorio para el futuro. Experimentando con agentes de IA y nuevas tecnologías para resolver los problemas del mañana.",
+        "studio_subtitle": "Potenciar — Medios de Legado",
+        "studio_description": "Amplificando el impacto a través del contenido. Producimos historias que inspiran, educan y elevan el espíritu humano."
+    },
+    "cta": {
+        "title_prefix": "Únete al",
+        "title_highlight": "Ciclo",
+        "subtitle": "El primer paso es la claridad. El segundo es la acción. Te acompañamos en ambos.",
+        "explore_cfo": "Explorar CFO mykibo",
+        "contact_us": "Contáctanos"
+    },
+    "footer": {
+        "tagline": "Inspirar la visión, proveer los medios, garantizar la acción. Desde Colombia, para el mundo.",
+        "divisions_title": "Divisiones",
+        "cfo": "CFO - Finanzas",
+        "dojo": "Dojo - Educación",
+        "studio": "Studio - Medios",
+        "lab": "Lab - Innovación",
+        "connect_title": "Conectar",
+        "copyright": "© {year} Kibo Colombia S.A.S. Hecho con 💛💙❤️ y propósito."
+    },
+    "login": {
+        "title": "Bienvenido de Vuelta",
+        "subtitle": "Inicia sesión en tu cuenta Kibo",
+        "email": "Correo electrónico",
+        "password": "Contraseña",
+        "submit": "Iniciar Sesión",
+        "no_account": "¿No tienes cuenta?",
+        "sign_up": "Regístrate"
+    },
+    "signup": {
+        "title": "Crear Cuenta",
+        "subtitle": "Únete al ecosistema Kibo",
+        "full_name": "Nombre Completo",
+        "email": "Correo electrónico",
+        "password": "Contraseña",
+        "password_placeholder": "Mínimo 6 caracteres",
+        "submit": "Registrarse",
+        "has_account": "¿Ya tienes cuenta?",
+        "sign_in": "Inicia sesión"
+    },
+    "metadata": {
+        "title": "Mykibo Nexus",
+        "description": "El ecosistema digital completo para gestionar tus finanzas, educación y crear contenido multimedia. Construyendo esperanza, un sueño a la vez."
+    }
+}

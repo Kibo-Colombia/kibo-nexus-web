@@ -5,7 +5,7 @@ import { useState } from 'react'
 import { createClient } from '@/lib/supabase/client'
 import { useRouter } from 'next/navigation'
 import AvatarUpload from './AvatarUpload'
-import { updateProfile } from '@/app/my-kibo/actions' // Correct import path? Wait, actions.ts is in app/my-kibo/actions.ts
+import { updateProfile } from '@/lib/actions'
 
 interface ProfileFormProps {
     user: any

@@ -1,0 +1,110 @@
+{
+    "nav": {
+        "ecosystem": "Ecosystem",
+        "journal": "Journal",
+        "spark": "Spark",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title_1": "Inspire the",
+        "title_highlight_1": "Vision",
+        "title_2": "Guarantee the",
+        "title_highlight_2": "Action",
+        "subtitle": "We are the community that turns aspirations into sustainable projects. Education, infrastructure, and collective action to improve the world.",
+        "cta_vision": "Discover Our Vision",
+        "cta_cycle": "The Virtuous Cycle",
+        "mascot_alt": "Kibo Mascot"
+    },
+    "essence": {
+        "title_prefix": "Our",
+        "title_highlight": "Essence",
+        "subtitle": "Mental clarity translates into tangible projects that improve the world.",
+        "vision_title": "Vision",
+        "vision_label": "The Destination",
+        "vision_text": "To become the leading community for education and collective action, where mental clarity translates into tangible projects that improve the world. We seek to build a self-sustaining environment that spans all branches of knowledge.",
+        "mission_title": "Mission",
+        "mission_label": "The Daily Purpose",
+        "mission_text": "Inspire the vision, provide the means, and guarantee the action. Equip every individual with the educational resources and strategic support needed to transform their aspirations into sustainable projects."
+    },
+    "cycle": {
+        "title_prefix": "Virtuous",
+        "title_highlight": "Cycle",
+        "subtitle": "Our method: Expose → Enable → Empower",
+        "expose_title": "Expose",
+        "expose_label": "Show the path",
+        "expose_text": "We connect with people to invite them to develop their full potential by working hand-in-hand with us. We eliminate uncertainty.",
+        "enable_title": "Enable",
+        "enable_label": "The tools to act",
+        "enable_text": "We deliver the infrastructure and training to take action. We provide the tools, knowledge, and community to take the first step with confidence.",
+        "empower_title": "Empower",
+        "empower_label": "Maximize the impact",
+        "empower_text": "We boost projects to maximize their impact. Every successful project strengthens the network, creating a multiplier effect."
+    },
+    "values": {
+        "title_prefix": "Our",
+        "title_highlight": "Values",
+        "subtitle": "The pillars that support every decision and every project.",
+        "collective_title": "Collective Action",
+        "collective_text": "Individual progress empowers the collective. Every member who grows strengthens the entire network and opens doors for others.",
+        "clarity_title": "Mental Clarity",
+        "clarity_text": "A clear vision precedes effective execution. First we understand, then we act with precision and purpose.",
+        "sustainability_title": "Self-Sustainability",
+        "sustainability_text": "Every project must be able to sustain and grow on its own. We build for autonomy, not dependency.",
+        "impact_title": "Lasting Impact",
+        "impact_text": "We build to transcend generations. We don't chase temporary results — we build permanent legacy."
+    },
+    "divisions": {
+        "title_prefix": "The",
+        "title_highlight": "Ecosystem",
+        "subtitle": "Each division is a gear in the Virtuous Cycle: Expose, Enable, Empower.",
+        "cfo_subtitle": "Enable — Your Financial Ally",
+        "cfo_description": "We provide the financial infrastructure to take action. Intelligent analysis built for the Colombian reality to help you reach your goals faster.",
+        "dojo_subtitle": "Expose + Enable — Wisdom & Mastery",
+        "dojo_description": "We don't just teach skills; we build character. A space to learn, grow, and master the tools of the modern world.",
+        "lab_subtitle": "Enable + Empower — R&D & AI",
+        "lab_description": "Our playground for the future. Experimenting with AI agents and new technologies to solve tomorrow's problems.",
+        "studio_subtitle": "Empower — Legacy Media",
+        "studio_description": "Amplifying impact through content. We produce stories that inspire, educate, and elevate the human spirit."
+    },
+    "cta": {
+        "title_prefix": "Join the",
+        "title_highlight": "Cycle",
+        "subtitle": "The first step is clarity. The second is action. We walk with you through both.",
+        "explore_cfo": "Explore CFO mykibo",
+        "contact_us": "Contact Us"
+    },
+    "footer": {
+        "tagline": "Inspire the vision, provide the means, guarantee the action. From Colombia, for the world.",
+        "divisions_title": "Divisions",
+        "cfo": "CFO - Finance",
+        "dojo": "Dojo - Education",
+        "studio": "Studio - Media",
+        "lab": "Lab - Innovation",
+        "connect_title": "Connect",
+        "copyright": "© {year} Kibo Colombia S.A.S. Made with 💛💙❤️ and purpose."
+    },
+    "login": {
+        "title": "Welcome Back",
+        "subtitle": "Sign in to your Kibo account",
+        "email": "Email",
+        "password": "Password",
+        "submit": "Sign In",
+        "no_account": "Don't have an account?",
+        "sign_up": "Sign up"
+    },
+    "signup": {
+        "title": "Create Account",
+        "subtitle": "Join the Kibo ecosystem",
+        "full_name": "Full Name",
+        "email": "Email",
+        "password": "Password",
+        "password_placeholder": "Min 6 characters",
+        "submit": "Sign Up",
+        "has_account": "Already have an account?",
+        "sign_in": "Sign in"
+    },
+    "metadata": {
+        "title": "Mykibo Nexus",
+        "description": "The complete digital ecosystem to manage your finances, education, and create multimedia content. Building hope, one dream at a time."
+    }
+}
